@@ -1,0 +1,12 @@
+{
+  "name": "@at/utils",
+  "version": "1.0.0",
+  "description": "通用工具函数",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

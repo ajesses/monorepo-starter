@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+pnpm-debug.log*
+
+# misc
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# build
+build
+build-ssr
+.output
+
+# next.js
+.next/
+out/
+
+# storybook
+storybook-static
+
+# auto import modules and components
+auto-imports.d.ts
+components.d.ts

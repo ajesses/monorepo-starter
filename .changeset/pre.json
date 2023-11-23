@@ -1,0 +1,17 @@
+{
+  "mode": "exit",
+  "tag": "beta",
+  "initialVersions": {
+    "@at/components": "1.0.0",
+    "@at/constants": "0.0.1",
+    "@at/eslint": "1.0.0",
+    "g": "1.0.0",
+    "@g/edges": "1.0.0",
+    "@g/nodes": "1.0.0",
+    "@g/utils": "1.0.0",
+    "@g/store": "1.0.0",
+    "@at/utils": "1.0.0",
+    "@at/vite": "1.0.0"
+  },
+  "changesets": []
+}

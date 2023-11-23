@@ -1,0 +1,20 @@
+{
+  "name": "@at/vite",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "vite config",
+  "author": "jesse wang@ajesses891@gmail.com",
+  "license": "ISC",
+  "main": "index.ts",
+  "module": "index.ts",
+  "scripts": {
+    "clean": "pnpm rimraf node_modules && pnpm rimraf dist"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "typescript": "^5.3.2",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^5.0.2"
+  }
+}
