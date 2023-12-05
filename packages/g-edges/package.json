@@ -1,12 +1,13 @@
 {
   "name": "@g/edges",
-  "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "@g/edges",
+  "author": "jesse wang@ajesses891@gmail.com",
   "license": "ISC",
-  "keywords": [],
-  "main": "index.js",
+  "main": "index.ts",
+  "module": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "pnpm rimraf node_modules && pnpm rimraf dist"
   }
 }

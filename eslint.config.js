@@ -9,7 +9,7 @@ export default await antfu(
       'vue/no-mutating-props': 'off',
       'indent': ['error', 2, { SwitchCase: 1 }],
       'quotes': ['error', 'single'],
-      'no-undef': 0
+      'no-undef': 0,
     },
   },
 )

@@ -1,7 +1,7 @@
 {
   "name": "monorepo-starter",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": false,
   "description": "",
   "author": "",
@@ -9,10 +9,8 @@
   "keywords": [],
   "scripts": {
     "bootstrap": "pnpm install",
-    "dev:topology": "pnpm --filter @graph/topology dev",
-    "dev:room": "pnpm --filter @graph/room dev",
-    "build:topology": "pnpm --filter @graph/topology build",
-    "build:room": "pnpm --filter @graph/room build",
+    "dev:app": "pnpm --filter @apps dev",
+    "build:app": "pnpm --filter @apps build",
     "clean": "rimraf node_modules **/*/node_modules **/**/*/node_modules **/*/dist **/**/*/dist",
     "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
     "commit": "cz",
@@ -24,19 +22,21 @@
     "release": "pnpm build && pnpm release:only",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/",
     "prepare": "husky install",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "up": "taze -rI"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.0.0",
-    "@changesets/cli": "^2.26.2",
+    "@antfu/eslint-config": "^2.3.3",
+    "@changesets/cli": "^2.27.1",
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.54.0",
+    "eslint": "^8.55.0",
     "eslint-define-config": "^2.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.1.0",
+    "lint-staged": "^15.2.0",
+    "taze": "^0.13.0",
     "typescript": "^5.3.2"
   },
   "lint-staged": {
